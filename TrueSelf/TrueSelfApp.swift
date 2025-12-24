@@ -1,10 +1,3 @@
-//
-//  TrueSelfApp.swift
-//  TrueSelf
-//
-//  Created by Oleksandr Alimov on 21/12/25.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -25,7 +18,7 @@ struct TrueSelfApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabBar()
         }
         .modelContainer(sharedModelContainer)
     }

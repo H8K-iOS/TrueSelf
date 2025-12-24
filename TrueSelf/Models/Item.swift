@@ -1,10 +1,3 @@
-//
-//  Item.swift
-//  TrueSelf
-//
-//  Created by Oleksandr Alimov on 21/12/25.
-//
-
 import Foundation
 import SwiftData
 
