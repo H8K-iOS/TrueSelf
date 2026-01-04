@@ -1,0 +1,49 @@
+{
+  "quizzes": [
+    {
+      "id": "riasec",
+      "definitionId": "riasec_v1",
+      "type": "Personality",
+
+      "imageSystemName": "compass.drawing",
+      "titleKey": "riasec_title",
+      "descriptionKey": "riasec_description",
+
+      "estimatedDurationMin": 10,
+      "questionsCount": 40,
+
+      "isAvailable": true,
+      "order": 1
+    },
+    {
+      "id": "bigfive",
+      "definitionId": "bigfive_v1",
+      "type": "Personality",
+
+      "imageSystemName": "person.2.fill",
+      "titleKey": "bigfive_title",
+      "descriptionKey": "bigfive_description",
+
+      "estimatedDurationMin": 12,
+      "questionsCount": 50,
+
+      "isAvailable": true,
+      "order": 2
+    },
+    {
+      "id": "cognitive_basic",
+      "definitionId": "cognitive_basic_v1",
+      "type": "Cognitive",
+
+      "imageSystemName": "brain.head.profile",
+      "titleKey": "cognitive_title",
+      "descriptionKey": "cognitive_description",
+
+      "estimatedDurationMin": 8,
+      "questionsCount": 12,
+
+      "isAvailable": true,
+      "order": 3
+    }
+  ]
+}

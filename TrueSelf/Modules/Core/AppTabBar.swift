@@ -14,7 +14,7 @@ struct AppTabBar: View {
             
             
             Tab(self.testsTab.capitalized, systemImage: "clipboard.fill") {
-                TestScreenView()
+                MainTestScreenView()
             }
             
             Tab(self.discoverTab.capitalized, systemImage: "globe") {

@@ -1,0 +1,56 @@
+{
+  "testId": "riasec",
+  "version": 1,
+  "answerFormat": {
+    "type": "likert",
+    "scale": {
+      "min": 1,
+      "max": 5,
+      "scaleKey": "likert_agreement_5"
+    }
+  },
+  "questions": [
+    { "id": "R1", "textKey": "riasec_q_r1", "dimension": "R" },
+    { "id": "R2", "textKey": "riasec_q_r2", "dimension": "R" },
+    { "id": "R3", "textKey": "riasec_q_r3", "dimension": "R" },
+    { "id": "R4", "textKey": "riasec_q_r4", "dimension": "R" },
+    { "id": "R5", "textKey": "riasec_q_r5", "dimension": "R" },
+    { "id": "R6", "textKey": "riasec_q_r6", "dimension": "R" },
+
+    { "id": "I1", "textKey": "riasec_q_i1", "dimension": "I" },
+    { "id": "I2", "textKey": "riasec_q_i2", "dimension": "I" },
+    { "id": "I3", "textKey": "riasec_q_i3", "dimension": "I" },
+    { "id": "I4", "textKey": "riasec_q_i4", "dimension": "I" },
+    { "id": "I5", "textKey": "riasec_q_i5", "dimension": "I" },
+    { "id": "I6", "textKey": "riasec_q_i6", "dimension": "I" },
+    { "id": "I7", "textKey": "riasec_q_i7", "dimension": "I" },
+
+    { "id": "A1", "textKey": "riasec_q_a1", "dimension": "A" },
+    { "id": "A2", "textKey": "riasec_q_a2", "dimension": "A" },
+    { "id": "A3", "textKey": "riasec_q_a3", "dimension": "A" },
+    { "id": "A4", "textKey": "riasec_q_a4", "dimension": "A" },
+    { "id": "A5", "textKey": "riasec_q_a5", "dimension": "A" },
+    { "id": "A6", "textKey": "riasec_q_a6", "dimension": "A" },
+
+    { "id": "S1", "textKey": "riasec_q_s1", "dimension": "S" },
+    { "id": "S2", "textKey": "riasec_q_s2", "dimension": "S" },
+    { "id": "S3", "textKey": "riasec_q_s3", "dimension": "S" },
+    { "id": "S4", "textKey": "riasec_q_s4", "dimension": "S" },
+    { "id": "S5", "textKey": "riasec_q_s5", "dimension": "S" },
+    { "id": "S6", "textKey": "riasec_q_s6", "dimension": "S" },
+
+    { "id": "E1", "textKey": "riasec_q_e1", "dimension": "E" },
+    { "id": "E2", "textKey": "riasec_q_e2", "dimension": "E" },
+    { "id": "E3", "textKey": "riasec_q_e3", "dimension": "E" },
+    { "id": "E4", "textKey": "riasec_q_e4", "dimension": "E" },
+    { "id": "E5", "textKey": "riasec_q_e5", "dimension": "E" },
+    { "id": "E6", "textKey": "riasec_q_e6", "dimension": "E" },
+
+    { "id": "C1", "textKey": "riasec_q_c1", "dimension": "C" },
+    { "id": "C2", "textKey": "riasec_q_c2", "dimension": "C" },
+    { "id": "C3", "textKey": "riasec_q_c3", "dimension": "C" },
+    { "id": "C4", "textKey": "riasec_q_c4", "dimension": "C" },
+    { "id": "C5", "textKey": "riasec_q_c5", "dimension": "C" },
+    { "id": "C6", "textKey": "riasec_q_c6", "dimension": "C" }
+  ]
+}

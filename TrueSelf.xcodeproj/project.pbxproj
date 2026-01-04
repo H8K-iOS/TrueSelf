@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A09CF8CC2F058B2A00A1D798 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = A09CF8CB2F058B2A00A1D798 /* FirebaseAI */; };
+		A09CF8CE2F058B2A00A1D798 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A09CF8CD2F058B2A00A1D798 /* FirebaseAnalytics */; };
+		A09CF8D02F058B2A00A1D798 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = A09CF8CF2F058B2A00A1D798 /* FirebaseAnalyticsCore */; };
+		A09CF8D22F058B2A00A1D798 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A09CF8D12F058B2A00A1D798 /* FirebaseCore */; };
+		A09CF8D42F058B2A00A1D798 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A09CF8D32F058B2A00A1D798 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A09CF7E22EF8173500A1D798 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,6 +45,20 @@
 			);
 			target = A09CF7CF2EF8173200A1D798 /* TrueSelf */;
 		};
+		A09CF8C82F05890400A1D798 /* Exceptions for "TrueSelf" folder in "TrueSelfTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = A09CF7E02EF8173500A1D798 /* TrueSelfTests */;
+		};
+		A09CF8C92F05890400A1D798 /* Exceptions for "TrueSelf" folder in "TrueSelfUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = A09CF7EA2EF8173500A1D798 /* TrueSelfUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +66,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				A09CF7F32EF8173500A1D798 /* Exceptions for "TrueSelf" folder in "TrueSelf" target */,
+				A09CF8C82F05890400A1D798 /* Exceptions for "TrueSelf" folder in "TrueSelfTests" target */,
+				A09CF8C92F05890400A1D798 /* Exceptions for "TrueSelf" folder in "TrueSelfUITests" target */,
 			);
 			path = TrueSelf;
 			sourceTree = "<group>";
@@ -65,6 +89,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09CF8CE2F058B2A00A1D798 /* FirebaseAnalytics in Frameworks */,
+				A09CF8D02F058B2A00A1D798 /* FirebaseAnalyticsCore in Frameworks */,
+				A09CF8D22F058B2A00A1D798 /* FirebaseCore in Frameworks */,
+				A09CF8D42F058B2A00A1D798 /* FirebaseFirestore in Frameworks */,
+				A09CF8CC2F058B2A00A1D798 /* FirebaseAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +154,11 @@
 			);
 			name = TrueSelf;
 			packageProductDependencies = (
+				A09CF8CB2F058B2A00A1D798 /* FirebaseAI */,
+				A09CF8CD2F058B2A00A1D798 /* FirebaseAnalytics */,
+				A09CF8CF2F058B2A00A1D798 /* FirebaseAnalyticsCore */,
+				A09CF8D12F058B2A00A1D798 /* FirebaseCore */,
+				A09CF8D32F058B2A00A1D798 /* FirebaseFirestore */,
 			);
 			productName = TrueSelf;
 			productReference = A09CF7D02EF8173200A1D798 /* TrueSelf.app */;
@@ -205,9 +239,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = A09CF7C72EF8173200A1D798;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A09CF8CA2F058B2A00A1D798 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A09CF7D12EF8173200A1D798 /* Products */;
 			projectDirPath = "";
@@ -307,12 +345,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = personal.TrueSelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -341,12 +383,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = personal.TrueSelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -410,6 +456,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -467,6 +514,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -595,6 +643,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A09CF8CA2F058B2A00A1D798 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A09CF8CB2F058B2A00A1D798 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A09CF8CA2F058B2A00A1D798 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		A09CF8CD2F058B2A00A1D798 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A09CF8CA2F058B2A00A1D798 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A09CF8CF2F058B2A00A1D798 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A09CF8CA2F058B2A00A1D798 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		A09CF8D12F058B2A00A1D798 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A09CF8CA2F058B2A00A1D798 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A09CF8D32F058B2A00A1D798 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A09CF8CA2F058B2A00A1D798 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A09CF7C82EF8173200A1D798 /* Project object */;
 }
